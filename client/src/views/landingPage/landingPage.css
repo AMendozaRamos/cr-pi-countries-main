@@ -1,0 +1,24 @@
+.background{
+    background-image: url('../../assets/landing1.jpg'); /* Ruta a tu imagen de fondo */
+  background-size:contain; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen horizontalmente y verticalmente */
+  background-repeat:repeat; /* Evita la repetición de la imagen */
+  height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+  color: white; /* Cambia el color del texto si es necesario para que sea visible en el fondo */
+
+}
+
+.home-page {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-page:hover {
+    background-color: #0056b3;
+}
